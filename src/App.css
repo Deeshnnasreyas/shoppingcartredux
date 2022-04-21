@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:wght@500&family=Nunito:wght@200;400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+.nav-bar {
+  height: 50px;
+  background: rgb(242, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+
+ 
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: rgb(78, 77, 77);
+}
+.nav-bar h2 {
+  font-size: 40px;
+}
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+.homecontainer{
+  width:100% ;
+  background-color: rgb(247, 214, 220);
+
+  position:relative ;
+  /* height: 300px; */
+  height: auto;
+}
+.homebody{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+
+}
+.homebodys{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+
+}
+#sentbtn{
+  padding: 10px 15px
+}
+.inputbox{
+  border: none;
+  width: 90%;
+  height: 35px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px){
+  .textcontainer h3 {
+    font-size: 30px;
+  }
+
+  
+}
+.textcontainer h3{
+  font-size: 35px;
+  font-weight: 600;
+
+}
+.textcontainer p{
+  font-size: 16px;
+  color: #6e6060;
+
+}
+.textcontainer h4{
+  font-weight: 600;
+  color: red;
+}
+.textcontainer button{
+  border: none;
+  background: #f35772;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #ffff;
+  font-size: 15px;
+}
+.homebody{
+  padding: 50px 70px
+}
+.Cardcontainer
+{display: flex;
+flex-direction: row;
+align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  @media (max-width: 768px){
+    .Cardcontainer{
+      width: 100% !important;
+      display: flex !important;
+      align-items: center !important;
+      flex-direction: column !important;
+      padding: 10px 55px !important;
+    }
+
+  
+}
+ 
+
+
+.Card{
+  background-color:white;
+
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+width: 450px;
+height: 100px;
+margin-left: 10px;
+/* padding-top: 28px; */
+border-radius: 8px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 30px;
+
+
+}
+@media (max-width: 768px) {
+  .Card{
+    width: 130%;
+  }
+}
+
+.Card p{
+  color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.cart-wraper-container{
+  display: flex;
+ padding: 10px 20px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+ 
+}
+@media (max-width: 768px) {
+  .cart-wraper-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  
+
+
+}
+.heading{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+@media (max-width: 768px) {
+  .heading{
+   
+    margin-left: 0px;
+  }
+}
+
+
+.img-wrapper-item{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-wrapper-item img{
+  width: 100%;
+  object-fit: cover;
+}
+.btn-wrapper-item{
+  text-align: center;
+    padding-top: 5px;
+}
+.spantext{
+font-weight: 500;
+}
+.btn-wrapper-item button{
+  background: black;
+  color: #ffff;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 8px;
+}
+.cart-wrapper{
+  background-color:white;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 450px;
+  height: auto;
+  /* padding-top: 28px; */
+  border-radius: 8px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+/* media screen */
+@media (max-width: 768px){
+  .nav-bar {
+    width: 100%   !important;
+  }
+  .homebody{
+    padding: 30px 10px !important;
+  }
+  .Cardcontainer{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    padding: 10px 55px !important;
+  }
+  .cart-wraper-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+}
